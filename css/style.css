@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+	color: #444444;
+}
+.menu_bar {
+    background: rgba(25, 60, 157, 0.95);
+}
+
+.logo {
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    /* padding-right: 18px; */
+    color: #fff;
+
+
+
+
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: inherit;
+    white-space: nowrap;
+    transition: 0.3s;
+
+}
+
+.btn_0 {
+    margin-left: 23px;
+    padding: 8px 20px;
+
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid #47b2e4;
+    font-weight: 600;
+
+}
+
+.btn_0:hover {
+    color: #fff;
+    background: #31a9e1;
+    border-color: #47b2e4;
+}
+
+/* banner start */
+#banner {
+    background: rgba(25, 60, 157, 0.95);
+
+}
+
+#banner .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.left-side h2 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+
+
+.left-side p {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.btn_1 {
+
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: -14px;
+    color: #fff;
+    background: #47b2e4;
+
+}
+
+.btn_2 {
+    text-decoration: none;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+
+
+}
+
+.btn_2 i {
+    font-size: 32px;
+    color: #fff;
+    margin-right: 5px;
+    margin-left: 18px;
+}
+
+/* banner end */
+
+/* sponsor section start */
+#sponser {
+    background: #f3f5fa;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#sponser img {
+    width: 80px;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    filter: grayscale(100%);
+}
+
+#sponser img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+
+/* sponsor section end*/
+
+/* About section start */
+
+#about{
+    padding: 60px;
+}
+
+#about h1{
+    font-size: 32px;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 20px;
+padding-bottom: 20px;
+position: relative;
+color: #37517e;
+
+}
+#about p{
+    margin-top: 0;
+margin-bottom: 1rem;
+font-size: 16px;
+
+}
+.list_item{
+ list-style: none;
+ font-size: 16px;
+ 
+}
+
+.bs-icon{
+    
+        position: absolute;
+        left: 76px;
+         top: -2; 
+        font-size: 20px;
+        color: #47b2e4;
+        line-height: 1;
+}
+.divider{
+    background-color: rgb(201, 201, 201);
+    width: 130px;
+    height: 1px;
+   margin: 20px auto;
+}
+
+.divider::after{
+    content: '';
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 5px;
+    background-color: #007aff;
+    top: -15px;
+    left: 50px;
+}
+.btn_3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 4px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #47b2e4;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid #47b2e4;
+}
+
+.btn_3:hover{
+    color: #fff;
+    background:#47b2e4 ;
+    border-color:#47b2e4 ;
+}
+
+/* About section end */
+
+#accordion{
+    background-color: #f3f5fa;
+    padding: 60px 0;
+overflow: hidden;
+}
+.text-1{
+    font-weight: 800px;
+    font-weight: bolder;
+}
+.building-img{
+    width: 100%;
+}
+
+.col-lg-6 h2{
+    font-weight: 400;
+font-size: 34px;
+color: #37517e;
+}
+
+.col-lg-6 p{
+   
+    
+        font-size: 15px;
+        color: #848484;
+}
+
+.list-one{
+   
+        display: block;
+        position: relative;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        padding-right: 30px;
+        outline: none;
+        cursor: pointer;
+    }
