@@ -1,0 +1,193 @@
+@media (max-width: 575.98px) {
+
+    .left-side h1 {
+        line-height: 36px;
+        font-size: 33px;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 24px;
+    }
+
+
+    .btn-banner {
+        text-align: center;
+        margin-right: 34px;
+    }
+
+    .left-side .pera {
+        font-size: 19px;
+        line-height: 24px;
+        margin-bottom: 60px;
+        text-align: center;
+        width: 434px;
+        margin: 0 auto;
+        padding: 17px 0px 20px 0px;
+    }
+
+    #banner .img-fluid {
+        max-width: 70%;
+        /* height: auto; */
+        margin-left: 70px;
+        margin-top: 156px;
+
+    }
+
+    .btn_1 {
+
+        margin-left: 50px;
+
+    }
+
+    .btn_2 {
+        /*        
+    margin-left: 50px; */
+        margin-bottom: 80px;
+    }
+
+    /* ======================= banner section done =======================*/
+
+
+
+    /* Team Section start */
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1140px;
+    }
+
+    .content-all {
+        display: inline-flex;
+        position: relative;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+        padding: 41px 23px 28px 19px;
+        border-radius: 5px;
+        background: #fff;
+        transition: 0.5s;
+        height: 100%;
+        width: 94%;
+        margin: 0 auto;
+        margin-left: 17px;
+        margin-bottom: 20px;
+    }
+
+    .price_row{
+        margin-bottom: 40px;
+    }
+
+
+    .team_peragraph{
+        
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 16px;
+            color: #6c757d;
+            transform: translateY(-10px);
+            transition: 0.4s;
+            width: 91%;
+            margin-left: 27px;
+        
+    }
+    /* Team Section end */
+
+
+    /* Services section start */
+    /* .icon-box {
+	box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+	padding: 30px 23px;
+	transition: all ease-in-out 0.4s;
+	background: #fff;
+	align-items: stretch;
+	transition: .3s all ease;
+	border: 4px solid transparent;
+	min-width: 46%;
+	margin: 13px;
+} */
+
+    .icon-box {
+        box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+        padding: 14px 20px;
+        transition: all ease-in-out 0.4s;
+        background: #fff;
+        align-items: stretch;
+        transition: .3s all ease;
+        border: 4px solid transparent;
+        min-width: 95%;
+        /* margin: 10px; */
+    }
+
+    .a_ro {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+        width: 123%;
+        /* margin-right: ; */
+        /* margin-right: 49px; */
+        margin-left: -51px;
+    }
+
+    /* Services section end */
+
+    /* Sponser section start */
+
+    .spon {
+
+
+        width: 121%;
+        margin: 0 auto;
+
+    }
+
+    /* Sponser section end */
+    /* Action section start */
+
+    .cta h3 {
+       
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .cta p {
+        text-align: center;
+    }
+
+
+    /* Action section end */
+    /* footer start */
+
+
+    #footer .copyright {
+        /* float: left; */
+        text-align: center !important;
+    }
+
+
+
+
+    #footer .credits {
+        float: right;
+        font-size: 13px;
+        margin-right: 38px;
+    }
+
+
+
+
+    /* footer end */
+
+
+
+
+
+
+
+
+
+
+
+}
